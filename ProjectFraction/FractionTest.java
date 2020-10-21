@@ -1,4 +1,8 @@
-
+/**
+ *Author: Ayden Bales
+ *Date: Sep 23, 2020
+ *Description: Fraction Tester
+ */
 public class FractionTest {
 
 	public static void main(String[] args) {
