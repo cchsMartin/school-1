@@ -1,4 +1,4 @@
-## Project Description:
+## Fraction Project:
 Create a class called Fraction.
 This class will simulate the four basic mathematical operations with fractions.
 Your class should contain two integer instance variables (num, den).
