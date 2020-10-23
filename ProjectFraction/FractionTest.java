@@ -1,7 +1,7 @@
 /**
  *Author: Ayden Bales
- *Date: Sep 23, 2020
- *Description: Fraction Tester
+ *Date: Oct 23, 2020
+ *Description: Fraction Project
  */
 public class FractionTest {
 
