@@ -1,11 +1,7 @@
-/**
- *Author: Ayden Bales
- *Date: Sep 23, 2020
- *Description: Fraction Project
- */
+
 public class Fraction {
-	private int num = 1;
-	private int den = 2;
+	private static int num = 1;
+	private static int den = 2;
 	
 	public Fraction() {
 		num = 1;
@@ -17,7 +13,7 @@ public class Fraction {
 	}
 	
 	
-	public void sum(int num2, int den2) {
+	public static void sum(int num2, int den2) {
 		int numresult = num * den2 + num2 * den;
 		int denresult = den * den2;
 		System.out.println(num + "/" + den + " + " + num2 + "/" + den2 + " = " + numresult + "/" + denresult);
@@ -38,6 +34,6 @@ public class Fraction {
 	public void quotient(int num2, int den2) {
 		int numresult = num * den2;
 		int denresult = den * num2;
-		System.out.println(num + "/" + den + " Ã· " + num2 + "/" + den2 + " = " + numresult + "/" + denresult);
+		System.out.println(num + "/" + den + " ÷ " + num2 + "/" + den2 + " = " + numresult + "/" + denresult);
 	}
 }
