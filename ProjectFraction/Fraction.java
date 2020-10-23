@@ -1,4 +1,8 @@
-
+/**
+ *Author: Ayden Bales
+ *Date: Oct 23, 2020
+ *Description: Fraction Project
+ */
 public class Fraction {
 	private static int num = 1;
 	private static int den = 2;
@@ -34,6 +38,6 @@ public class Fraction {
 	public void quotient(int num2, int den2) {
 		int numresult = num * den2;
 		int denresult = den * num2;
-		System.out.println(num + "/" + den + " ÷ " + num2 + "/" + den2 + " = " + numresult + "/" + denresult);
+		System.out.println(num + "/" + den + " Ã· " + num2 + "/" + den2 + " = " + numresult + "/" + denresult);
 	}
 }
