@@ -40,4 +40,5 @@ public class Fraction {
 		int denresult = den * num2;
 		System.out.println(num + "/" + den + " ÷ " + num2 + "/" + den2 + " = " + numresult + "/" + denresult);
 	}
+	//as is, your methods require a fraction object to be run. Each method is supposed to be static so that you can call the class on the method.
 }
